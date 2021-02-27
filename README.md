@@ -16,3 +16,9 @@ npm i svelte-editor
 
 <Editor bind:html={isinya}/>
 ```
+
+## Contoh Jadinya
+
+![](https://i.ibb.co/rF4mh02/image.png)
+
+![](https://i.ibb.co/hXJvpqS/image.png)
