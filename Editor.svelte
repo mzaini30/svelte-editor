@@ -31,7 +31,7 @@
 	}
 </script>
 
-<style type="text/scss">
+<style type="text/css">
 	button {
 		margin-bottom: 0.3em;
 	}
