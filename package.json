@@ -1,6 +1,6 @@
 {
   "name": "svelte-editor",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "",
   "main": "svelte/src/Editor.svelte",
   "scripts": {
