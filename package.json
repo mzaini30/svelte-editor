@@ -2,7 +2,7 @@
   "name": "svelte-editor",
   "version": "1.0.2",
   "description": "",
-  "main": "Editor.svelte",
+  "main": "svelte/src/Editor.svelte",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

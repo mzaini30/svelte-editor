@@ -14,11 +14,12 @@
 	<button on:click|preventDefault={() => sebagian('insertUnorderedList')} class="btn btn-success">List Bullet</button>
 </div>
 <hr>
-<div contenteditable bind:innerHTML={html} ></div>
+<div contenteditable bind:innerHTML={html} style="max-height: {tinggi}" ></div>
 <hr>
 
 <script type="text/javascript">
 	export let html
+	export let tinggi = '78vh'
 	function block(x){
 		document.execCommand('formatBlock', false, x)
 	}
@@ -34,5 +35,8 @@
 <style type="text/css">
 	button {
 		margin-bottom: 0.3em;
+	}
+	div {
+		overflow: auto;
 	}
 </style>

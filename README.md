@@ -17,6 +17,18 @@ npm i svelte-editor
 <Editor bind:html={isinya}/>
 ```
 
+## Parameter Opsional
+
+**tinggi** (default: 78vh)
+
+Untuk menentukan maksimal tinggi editor.
+
+Contoh:
+
+```html
+<Editor bind:html={isinya} tinggi='50vh'/>
+```
+
 ## Contoh Jadinya
 
 ![](https://i.ibb.co/rF4mh02/image.png)
