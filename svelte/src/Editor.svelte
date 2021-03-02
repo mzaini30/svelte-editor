@@ -20,6 +20,9 @@
 <script type="text/javascript">
 	export let html
 	export let tinggi = '78vh'
+	$: if (html == '') {
+		html = '&nbsp;'
+	}
 	function block(x){
 		document.execCommand('formatBlock', false, x)
 	}
